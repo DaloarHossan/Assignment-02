@@ -21,10 +21,10 @@ CHAR ও হলো একটি String ডেটা টাইপ|এটি ন�
 ## 5.What are the LIMIT and OFFSET clauses used for?
 ## Answer:
 LIMIT clauses এটি query ফলাফল সেট থেকে কতগুলি সারি ফেরত দেওয়া হবে তা সীমাবদ্ধ করে। এটি query শেষে যুক্ত হয়।Example:
-``SELECT common_name, sighting_time
-FROM sightings
-JOIN species ON sightings.species_id = species.species_id
-ORDER BY sighting_time DESC
+``SELECT common_name, sighting_time <br>
+FROM sightings <br>
+JOIN species ON sightings.species_id = species.species_id <br>
+ORDER BY sighting_time DESC <br>
 LIMIT 2;
 ``
 এই Query টি sightings এবং species টেবিল থেকে সবচেয়ে সাম্প্রতিক দুটি সাইটিং দেখাবে।
